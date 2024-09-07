@@ -11,14 +11,14 @@ from streamlit_option_menu import option_menu
 
 #loading the saved models
 
-diabetes_model = pickle.load(open('C:/Users/VARSHITH/OneDrive/Desktop/dsci/projects/multiple disease pred/saved models/diabetes_model.sav','rb'))
+diabetes_model = pickle.load(open('diabetes_model.sav','rb'))
 
-heartdisease_model = pickle.load(open('C:/Users/VARSHITH/OneDrive/Desktop/dsci/projects/multiple disease pred/saved models/heart_disease_model.sav','rb'))
+heartdisease_model = pickle.load(open('heart_disease_model.sav','rb'))
 
 
-parkinsons_model = pickle.load(open('C:/Users/VARSHITH/OneDrive/Desktop/dsci/projects/multiple disease pred/saved models/parkinsons_model.sav','rb'))
+parkinsons_model = pickle.load(open('parkinsons_model.sav','rb'))
 
-breastcancer_model = pickle.load(open('C:/Users/VARSHITH/OneDrive/Desktop/dsci/projects/multiple disease pred/saved models/breastcancer_model.sav','rb'))
+breastcancer_model = pickle.load(open('breastcancer_model.sav','rb'))
 
 
 #sidebar
